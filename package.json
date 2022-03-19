@@ -1,0 +1,63 @@
+{
+  "name": "testing",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://daneshrao.github.io/react_upload",
+  "dependencies": {
+    "@emailjs/browser": "^3.4.0",
+    "@headlessui/react": "^1.5.0",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.5.1",
+    "emailjs-com": "^3.2.0",
+    "framer-motion": "^4.1.17",
+    "react": "^16.0.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-animation": "^1.2.2",
+    "react-animations": "^1.0.0",
+    "react-dom": "^16.0.0",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "3.0.1",
+    "react-tsparticles": "^1.41.5",
+    "react-vertical-timeline-component": "^3.5.2",
+    "styled-components": "^5.3.3",
+    "tsparticles": "^1.41.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.2",
+    "gh-pages": "^3.2.3",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  }
+}
