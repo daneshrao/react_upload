@@ -1,5 +1,6 @@
 import React from "react";
 import { FcRight, FcEngineering, FcPuzzle, FcFilmReel, FcLike, FcReading, FcClock, FcCalendar } from "react-icons/fc";
+import { motion, AnimatePresence } from "framer-motion";
 import Dp_img from "../../assets/about_img.jpeg";
 
 function About() {

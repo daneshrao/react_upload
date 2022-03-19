@@ -1,6 +1,6 @@
 import { FaBars } from "react-icons/fa";
 import {FcHome , FcInfo, FcGraduationCap, FcPhone, FcRating} from "react-icons/fc"
-import logo from "../../assets/d_trans.png"
+import logo from "../../assets/D_trans_1.png"
 
 import React, { useState } from "react";
 
